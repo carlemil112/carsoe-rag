@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # output and testdata
 docs_md*/
 embedded/
@@ -21,3 +22,7 @@ __pycache__/
 *.json
 .env
 Data/
+=======
+.json
+/data
+>>>>>>> dff0dfc5c14e61d47daf78ed1b940bd518899cbb
