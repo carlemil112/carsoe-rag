@@ -1,0 +1,23 @@
+# output and testdata
+docs_md*/
+embedded/
+scratch/
+_images/
+_media/
+_tmp/
+*.jsonl
+*.md.bak
+
+# env and cache
+venv*/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+#data and secrets
+*.docx
+*.pdf
+*.png
+*.json
+.env
+Data/
