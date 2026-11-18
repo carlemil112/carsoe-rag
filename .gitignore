@@ -1,4 +1,4 @@
-# output and testdata
+# Generated output
 docs_md*/
 embedded/
 scratch/
@@ -7,18 +7,32 @@ _media/
 _tmp/
 *.jsonl
 *.md.bak
+*.npy
+*.npz
+*.parquet
 
-# env and cache
+# Python environments and cache
 venv*/
+.venv*/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-#data and secrets
+# Data and secrets
+Data/
 *.docx
 *.pdf
 *.png
 *.json
 .env
-Data/
+.env.*
+*.safetensors
+*.pt
+*.pth
 
+# Allowed synthetic evaluation data
+!evaluation/test_cases.json
+
+# IDE and operating system
+.vscode/
+.DS_Store

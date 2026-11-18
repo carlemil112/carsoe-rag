@@ -1,0 +1,26 @@
+[
+    {
+        "query": "repair Adobe Acrobat PDF",
+        "target_filename": "Repair PDF.docx.md"
+    },
+    {
+        "query": "Hvordan installerer jeg Adobe Reader?",
+        "target_filename": "Adobe/Installation - Adobe Acrobat Reader DC.docx.md"
+    },
+    {
+        "query": "Jeg kan ikke åbne PDF filer",
+        "target_filename": "Repair PDF.docx.md"
+    },
+    {
+        "query": "I cannot open PDF files",
+        "target_filename": "Repair PDF.docx.md"
+    },
+    {
+        "query": "Jeg kan ikke åbne PDF filer i Adobe Acrobat",
+        "target_filename": "Repair PDF.docx.md"
+    },
+    {
+        "query": "I cannot open PDF files in Adobe Acrobat",
+        "target_filename": "Repair PDF.docx.md"
+    }
+]
