@@ -247,9 +247,17 @@ def main():
     out_root.mkdir(parents=True, exist_ok=True)
 
     # Collect all target files recursively using our SUPPORTED_EXTENSIONS
+    EXCLUDED_TERMS = ("sensitiv", "fortrolig", "confidential")
+
     files_to_process = [
         p for p in sorted(src_root.rglob("*"))
-        if p.is_file() and p.suffix.lower() in SUPPORTED_EXTENSIONS and not p.name.startswith("~$")
+        if p.is_file()
+        and p.suffix.lower() in SUPPORTED_EXTENSIONS
+        and not p.name.startswith("~$")
+        and not any(
+            term in p.relative_to(src_root).as_posix().lower()
+            for term in EXCLUDED_TERMS
+        )
     ]
 
     print(f"Found {len(files_to_process)} documents to process.")

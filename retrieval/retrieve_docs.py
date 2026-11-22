@@ -21,8 +21,16 @@ with open(chunks_path, "r", encoding="utf-8") as f:
 
 #Filter the chunks
 for chunk in chunks:
-    if "Du får den bedste oplevelse" not in chunk["text"]:
-        filtered_chunks.append(chunk)
+    filename = chunk["filename"].lower()
+
+    if any(term in filename for term in
+           ("sensitiv", "fortrolig", "confidential")):
+        continue
+
+    if "Du får den bedste oplevelse" in chunk["text"]:
+        continue
+
+    filtered_chunks.append(chunk)
 
 print(f"Loaded {len(filtered_chunks)} chunks")
 

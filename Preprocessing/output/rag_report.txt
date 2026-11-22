@@ -1,0 +1,14 @@
+Input: 3846 tickets
+Gemt: 3367 dokumenter
+Sorteret fra:
+  kun korte svar (done/løst): 233
+  kun lukkebesked som svar: 133
+  intet rigtigt IT-svar: 107
+  netIP systemmail: 5
+  tomt problem: 1
+Interne noter med: True
+Løsning fundet i: almindeligt svar 3367, vidensbase 0
+Navne brugt til anonymisering: 311
+Faste ID'er: 1824 personer, 15 supportere
+Mulige rester af persondata (tjek manuelt):
+  ingen fundet
