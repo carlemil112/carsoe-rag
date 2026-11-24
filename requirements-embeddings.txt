@@ -1,4 +1,5 @@
 # Requires the AAU pytorch_26.10.sif container
 sentence-transformers==6.3.0
+rank-bm25==0.2.2
 transformers==5.23.0
 numpy==2.5.5
