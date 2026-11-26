@@ -36,3 +36,4 @@ Data/
 # IDE and operating system
 .vscode/
 .DS_Store
+evaluation/private/
