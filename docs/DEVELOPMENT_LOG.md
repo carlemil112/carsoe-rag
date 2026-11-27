@@ -60,7 +60,7 @@ The purpose was to standardize heterogeneous IT documentation into a format suit
 
 ## November 22, 2026 – Preliminary Retrieval Comparison
 
-**Commit:** `13957fc` (evaluation script committed November 24, 2026)
+**Commit:** `88bb6c1` (evaluation script committed November 24, 2026)
 
 Evaluated BM25 and BGE-M3 on the same ordered collection of 3,224 chunks using six synthetic queries (`evaluation/compare_retrievers.py`). The script aborts if the two retrievers do not index identical chunk IDs in identical order.
 
